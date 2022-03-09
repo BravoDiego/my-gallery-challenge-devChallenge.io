@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    font-family: 'Montserrat';
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#profile img{
+    width: 156px;
+
+    border-radius: 15px;
+ 
+}
+
+#nom1 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #4E5150;
+}
+
+#nom2 {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #A9A9A9;
+}
+
+#information {
+    display: flex;
+    margin: 48px;
+}
+
+#information > div {
+    margin: 24px;
+    border-radius: 10px;
+    background-color: #E5E5E5;
+    color: #BDBDBD;
+    font-size: 14px;
+    width: 100px;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grisbasinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #4E5150;
+}
+
+.infoa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mur img {
+    border-radius: 20px;
+    margin: 16px;
+    box-shadow: 3px 5px 5px #C4C4C4;
+
+}
+
+.carre {
+    width: 300px;
+}
+
+.long {
+    width: 630px;
+   
+}
+
+#left {
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+}
+
+#down {
+    display: flex;
+
+}
+
+footer {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+
+
+    color: #BDBDBD;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    margin-top: 118px;
+    margin-bottom: 24px;
+}
+
+#lien {
+    text-decoration: underline;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+
+
+
+@media (min-width: 375px){
+    #main img{
+        margin: 10px;
+    }
+
+    #profile {
+        margin-top: 60px;
+    }
+}
